@@ -45,6 +45,9 @@ sources = []
         [[builds.artifact.download_sources]]
         tarball_hash = "sha256:bd0d5b5e5f1a7bd9c6d68123376e26f300f76d1998e37d258dfdb61799d4f234"
         url = "https://github.com/BinaryBuilderTestZone/Zlib_jll.jl/releases/download/Zlib-v99.0.0-bb2_access_token_tests_4c2ea4d6_xvz293/Zlib-Zlib-v99.0.0-aarch64-apple-darwin.tar.gz"
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:d68ba9f319a7e20ccc4d7e698003a7f50b7fa85d67cbb90141ce4045de0ebfea"
+        url = "https://github.com/BinaryBuilderTestZone/Zlib_jll.jl/releases/download/Zlib-v99.0.0-bb2_access_token_tests_4c2ea4d6_xvz293/Zlib-Zlib-v99.0.0-aarch64-apple-darwin.tar.gz"
 [[builds]]
 name = "Zlib"
 platform = "aarch64-linux-gnu"
@@ -85,4 +88,7 @@ sources = []
         url = "https://github.com/BinaryBuilderTestZone/Zlib_jll.jl/releases/download/Zlib-v99.0.0-bb2_access_token_tests_4c2ea4d6_xvz293/Zlib-Zlib-v99.0.0-aarch64-linux-gnu.tar.gz"
         [[builds.artifact.download_sources]]
         tarball_hash = "sha256:b441980951e51332dfcc103592c50153c7a6834c6f11a45bddf36cf37776f290"
+        url = "https://github.com/BinaryBuilderTestZone/Zlib_jll.jl/releases/download/Zlib-v99.0.0-bb2_access_token_tests_4c2ea4d6_xvz293/Zlib-Zlib-v99.0.0-aarch64-linux-gnu.tar.gz"
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:d39a7b0bb04c8091de3e655687f16ba3fa3966acd5e71e7ce401d219499bc118"
         url = "https://github.com/BinaryBuilderTestZone/Zlib_jll.jl/releases/download/Zlib-v99.0.0-bb2_access_token_tests_4c2ea4d6_xvz293/Zlib-Zlib-v99.0.0-aarch64-linux-gnu.tar.gz"
