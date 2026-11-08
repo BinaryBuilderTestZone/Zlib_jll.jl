@@ -18,6 +18,9 @@ os = "macos"
     [[Zlib.download]]
     sha256 = "1db6224670f3ef7d0f9ac5855d03d28515fde90db69cc2ea4a944bece74a6acf"
     url = "https://github.com/BinaryBuilderTestZone/Zlib_jll.jl/releases/download/Zlib-v99.0.0-bb2_access_token_tests_9b2df7e9_fkn2qv/Zlib-Zlib-v99.0.0-aarch64-apple-darwin.tar.gz"
+    [[Zlib.download]]
+    sha256 = "19d0b1e6a13f692ef7edb1f67cd875abb5e9e59659fbae8779ec1ce74b2c2f27"
+    url = "https://github.com/BinaryBuilderTestZone/Zlib_jll.jl/releases/download/Zlib-v99.1.0-bb2_access_token_tests_9b2df7e9_fkn2qv/Zlib-Zlib-v99.1.0-aarch64-apple-darwin.tar.gz"
 [[Zlib]]
 arch = "aarch64"
 git-tree-sha1 = "c82465bd6d0aa1369ff2fd961b73884d1f5de49a"
@@ -39,3 +42,6 @@ os = "linux"
     [[Zlib.download]]
     sha256 = "f0cb0bc00c5f5d80815d18415e3e2262eb1058879a3412283f1eeeb97e147468"
     url = "https://github.com/BinaryBuilderTestZone/Zlib_jll.jl/releases/download/Zlib-v99.0.0-bb2_access_token_tests_9b2df7e9_fkn2qv/Zlib-Zlib-v99.0.0-aarch64-linux-gnu.tar.gz"
+    [[Zlib.download]]
+    sha256 = "c75abf51c406e9e6d23a4aff4f34580ef459460f64fed932d04c9aa04e1ca30a"
+    url = "https://github.com/BinaryBuilderTestZone/Zlib_jll.jl/releases/download/Zlib-v99.1.0-bb2_access_token_tests_9b2df7e9_fkn2qv/Zlib-Zlib-v99.1.0-aarch64-linux-gnu.tar.gz"
