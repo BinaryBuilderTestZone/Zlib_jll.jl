@@ -1,0 +1,88 @@
+format_version = "1.0"
+name = "Zlib"
+version = "99.0.0"
+julia_compat = "1.6"
+platform_augmentation_code = ""
+
+[[builds]]
+name = "Zlib"
+platform = "aarch64-apple-darwin"
+deps = []
+lazy = "false"
+src_version = "99.0.0"
+sources = []
+
+    [[builds.licenses]]
+    license_text = """MIT License\n\nCopyright (c) 2024\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"""
+    filename = "LICENSE.md"
+    license_type = "MIT"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts]
+
+    [[builds.products]]
+    name = "hello_world"
+    type = "executable"
+    path = "bin/hello_world"
+    [[builds.products]]
+    name = "hello_world_doppelganger"
+    type = "executable"
+    path = "bin/hello_world"
+
+    [builds.artifact]
+    treehash = "sha1:d4036700fbbf29b31f5d1d5d948547edd3b70e11"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:1fd55f038a73c89f4e22b437a9182421e0d31c50bd4912c719215f6a736d50f1"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldC_jll.jl/releases/download/HelloWorldC-v1.3.0+0/HelloWorldC.v1.3.0.aarch64-apple-darwin.tar.gz"
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:a607072d9039b33b031fce78a455ed59fccbd5578521208c65122bd0d6b4ed70"
+        url = "https://github.com/BinaryBuilderTestZone/Zlib_jll.jl/releases/download/Zlib-v99.0.0-bb2_access_token_tests_f4e1d1eb_i0q72u/Zlib-Zlib-v99.0.0-aarch64-apple-darwin.tar.gz"
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:e7faf285451c582310effa0897e0ba08db7a3d4a7f3b0a0ecb7dc65b667d3f72"
+        url = "https://github.com/BinaryBuilderTestZone/Zlib_jll.jl/releases/download/Zlib-v99.0.0-bb2_access_token_tests_f4e1d1eb_i0q72u/Zlib-Zlib-v99.0.0-aarch64-apple-darwin.tar.gz"
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:d771417445b6b8ecb0353b4d76f5a06ebf0a81f79e51a8577c62c435fa07e167"
+        url = "https://github.com/BinaryBuilderTestZone/Zlib_jll.jl/releases/download/Zlib-v99.0.0-bb2_access_token_tests_f4e1d1eb_i0q72u/Zlib-Zlib-v99.0.0-aarch64-apple-darwin.tar.gz"
+[[builds]]
+name = "Zlib"
+platform = "aarch64-linux-gnu"
+deps = []
+lazy = "false"
+src_version = "99.0.0"
+sources = []
+
+    [[builds.licenses]]
+    license_text = """MIT License\n\nCopyright (c) 2024\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"""
+    filename = "LICENSE.md"
+    license_type = "MIT"
+
+    [builds.callback_defs]
+
+    [builds.auxilliary_artifacts]
+
+    [[builds.products]]
+    name = "hello_world"
+    type = "executable"
+    path = "bin/hello_world"
+    [[builds.products]]
+    name = "hello_world_doppelganger"
+    type = "executable"
+    path = "bin/hello_world"
+
+    [builds.artifact]
+    treehash = "sha1:c82465bd6d0aa1369ff2fd961b73884d1f5de49a"
+
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:5bfa84332c7ee485ca8e2eee216ad9fa77b2c43d5f261baa823e301b7c789ec4"
+        url = "https://github.com/JuliaBinaryWrappers/HelloWorldC_jll.jl/releases/download/HelloWorldC-v1.3.0+0/HelloWorldC.v1.3.0.aarch64-linux-gnu.tar.gz"
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:773687e41d2bc9921c6a7e4b4d5a21c1248914df8557b82556ed3e14e26128ba"
+        url = "https://github.com/BinaryBuilderTestZone/Zlib_jll.jl/releases/download/Zlib-v99.0.0-bb2_access_token_tests_f4e1d1eb_i0q72u/Zlib-Zlib-v99.0.0-aarch64-linux-gnu.tar.gz"
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:60cb11911949d0b57bab0459e4e5b884e08706e961268df9329e43d2f42ceae3"
+        url = "https://github.com/BinaryBuilderTestZone/Zlib_jll.jl/releases/download/Zlib-v99.0.0-bb2_access_token_tests_f4e1d1eb_i0q72u/Zlib-Zlib-v99.0.0-aarch64-linux-gnu.tar.gz"
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:893b3ca67d9f51feb8d605ff8be212a66ebc948990f7dd235f1440c387730f2b"
+        url = "https://github.com/BinaryBuilderTestZone/Zlib_jll.jl/releases/download/Zlib-v99.0.0-bb2_access_token_tests_f4e1d1eb_i0q72u/Zlib-Zlib-v99.0.0-aarch64-linux-gnu.tar.gz"
