@@ -33,6 +33,9 @@ src_version = "99.1.0"
         [[builds.artifact.download_sources]]
         tarball_hash = "sha256:50f2aea96fc50ca3448c65f6a1513de1e81e21f9a63548e7de0f4472efd57e83"
         url = "https://github.com/BinaryBuilderTestZone/Zlib_jll.jl/releases/download/Zlib-v99.1.0-bb2_access_token_tests_2b6030b5_ih3f9x/Zlib.v99.1.0.aarch64-apple-darwin.tar.gz"
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:38aa8d1025b3dd6fd149c033483ffe7c64837f2e52c994651c8447e636fce3be"
+        url = "https://github.com/BinaryBuilderTestZone/Zlib_jll.jl/releases/download/Zlib-v99.1.0-bb2_access_token_tests_2b6030b5_ih3f9x/Zlib.v99.1.0.aarch64-apple-darwin.tar.gz"
 
     [[builds.licenses]]
     filename = "LICENSE.md"
@@ -79,6 +82,9 @@ src_version = "99.1.0"
         url = "https://github.com/BinaryBuilderTestZone/Zlib_jll.jl/releases/download/Zlib-v99.0.0-bb2_access_token_tests_2b6030b5_ih3f9x/Zlib.v99.0.0.aarch64-linux-gnu.tar.gz"
         [[builds.artifact.download_sources]]
         tarball_hash = "sha256:eb51dec12a061724a843f654782d94929a590b19d4cf58859ebc39a9c4e3d578"
+        url = "https://github.com/BinaryBuilderTestZone/Zlib_jll.jl/releases/download/Zlib-v99.1.0-bb2_access_token_tests_2b6030b5_ih3f9x/Zlib.v99.1.0.aarch64-linux-gnu.tar.gz"
+        [[builds.artifact.download_sources]]
+        tarball_hash = "sha256:d90dfef9ab0510c70f75c1c4eb7d88901a8783f3ed2a995ad99bc2dad463bf8b"
         url = "https://github.com/BinaryBuilderTestZone/Zlib_jll.jl/releases/download/Zlib-v99.1.0-bb2_access_token_tests_2b6030b5_ih3f9x/Zlib.v99.1.0.aarch64-linux-gnu.tar.gz"
 
     [[builds.licenses]]
